@@ -10,4 +10,5 @@ MAINTAINER Guillaume J. Charmes "guillaume@dotcloud.com"
 RUN apt-get update
 
 RUN apt-get install -y curl
+RUN apt-get install -y lynx 
 # INSERT https://raw.github.com/creack/docker-vps/master/nginx-wrapper.sh /usr/sbin/nginx-wrapper
